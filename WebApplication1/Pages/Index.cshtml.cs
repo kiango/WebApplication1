@@ -12,7 +12,7 @@ namespace WebApplication1.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        // the logger freature must be developed here. Commit this to a new branch.
+        // the logger freature must be developed here. Commit this to a new branch. We make a test run
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
