@@ -6,21 +6,19 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace WebApplication1.Pages
+namespace WebApplication2.Pages
 {
-    public class IndexModel : PageModel
+    public class PrivacyModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<PrivacyModel> _logger;
 
-        // the logger freature must be developed here. Commit this to a new branch. We make a test run
-        public IndexModel(ILogger<IndexModel> logger)
+        public PrivacyModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
         }
 
         public void OnGet()
         {
-
         }
     }
 }

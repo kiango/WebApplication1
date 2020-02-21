@@ -6,13 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace WebApplication1.Pages
+namespace WebAppCiCdTest.Pages
 {
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
 
-        // the logger freature must be developed here. Commit this to a new branch. We make a test run
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
